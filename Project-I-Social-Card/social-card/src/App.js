@@ -1,11 +1,8 @@
-import React from "react";
-import "./App.scss";
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import React from 'react';
+import './App.css';
 
 const App = () => {
   return (
-    <HeaderContainer />
-    /*
     <div>
       <h3>Welcome to React Social Card!</h3>
       <p>
@@ -20,7 +17,7 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-    </div> */
+    </div>
   );
 };
 
