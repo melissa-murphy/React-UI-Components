@@ -1,6 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 body {
-  max-width: 500px;
+  max-width: 400px;
+  margin-left: 1rem;
+}
+
+button.square-button {
+  width: 3rem;
+  height: 3rem;
+}
+
+button.action-button {
+  height: 3rem;
+  width: 6rem;
+}
+
+.calculator-display {
+  max-width: 400px;
+  height: 3.5rem;
+  color: white;
+  background: black;
+  text-align: right;
+}
+
+.operational-button-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -5,7 +5,7 @@ import "./Buttons.scss";
 
 const ActionButtonContainer = () => {
   return (
-    <div>
+    <div className="action-button-container">
       <ActionButton />
     </div>
   );

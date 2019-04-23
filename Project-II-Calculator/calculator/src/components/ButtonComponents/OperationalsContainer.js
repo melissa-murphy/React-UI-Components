@@ -1,12 +1,12 @@
 import React from "react";
-import MathButton from "./OperationalsButton";
+import OperationalsButton from "./OperationalsButton";
 
 import "./Buttons.scss";
 
 const OperationalsContainer = () => {
   return (
     <div>
-      <MathButton />
+      <OperationalsButton />
     </div>
   );
 };

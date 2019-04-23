@@ -4,7 +4,9 @@ import './Display.scss';
 
 const CalculatorDisplay = () => {
     return (
-        <div>0</div>
+        <div className="calculator-display">
+            <p>0</p>
+        </div>
     )
 };
 

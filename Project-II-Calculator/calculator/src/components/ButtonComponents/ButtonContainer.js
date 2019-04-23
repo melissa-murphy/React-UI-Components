@@ -7,7 +7,7 @@ import "./Buttons.scss";
 
 const ButtonContainer = () => {
   return (
-    <div>
+    <div className="button-container">
       <ActionButtonContainer />
       <NumberButtonContainer />
       <OperationalsContainer />

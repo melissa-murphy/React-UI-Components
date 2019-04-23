@@ -1,4 +1,9 @@
 // Button styles
-.number-button button.square-button {
-    color: pink;
+button.square-button {
+  width: 3rem;
+  height: 3rem;
+}
+button.action-button {
+  height: 3rem;
+  width: 6rem;
 }
