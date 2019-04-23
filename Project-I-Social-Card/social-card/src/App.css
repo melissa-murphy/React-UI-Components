@@ -3,19 +3,41 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 @import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  max-width: 500px;
+}
+
 /* All styles for your header Components live here */
 .header-content {
   display: flex;
 }
-.header-content .header-title {
+.header-content img.image-thumbnail {
+  height: 4rem;
+}
+.header-content .header-title .header-data {
   font-family: "Lato", sans-serif;
   display: flex;
-  align-items: center;
 }
-.header-content .header-title h1,
-.header-content .header-title h3,
-.header-content .header-title p {
+.header-content .header-title .header-data p:first-of-type {
+  font-weight: 700;
+}
+.header-content .header-title .header-data h4,
+.header-content .header-title .header-data p {
   margin: 0.5rem;
+}
+
+/* All styles for your Card Components live here */
+.card-content {
+  border: 1px solid #dddada;
+  border-radius: 5px;
+  width: 100%;
+  margin-left: 4rem;
+}
+.card-content img.card-banner {
+  max-width: 500px;
+}
+.card-content .card-text {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */

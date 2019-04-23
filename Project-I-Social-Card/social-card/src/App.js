@@ -1,10 +1,14 @@
-import React from "react";
-import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import React from 'react';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
-import "./App.css";
+import './App.css';
 const App = () => {
   return (
-    <HeaderContainer />
+    <div>
+      <HeaderContainer />
+      <CardContainer />
+    </div>
     /*
     <div>
       <h3>Welcome to React Social Card!</h3>
