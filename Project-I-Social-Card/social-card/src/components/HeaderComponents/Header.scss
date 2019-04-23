@@ -2,8 +2,14 @@
 
 .header-content {
   display: flex;
-  flex-direction: row;
   .header-title {
     font-family: $lato;
+    display: flex;
+    align-items: center;
+    h1,
+    h3,
+    p {
+      margin: .5rem;
+    }
   }
 }

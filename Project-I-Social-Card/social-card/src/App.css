@@ -6,10 +6,16 @@
 /* All styles for your header Components live here */
 .header-content {
   display: flex;
-  flex-direction: row;
 }
 .header-content .header-title {
   font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.header-content .header-title h1,
+.header-content .header-title h3,
+.header-content .header-title p {
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=App.css.map */
