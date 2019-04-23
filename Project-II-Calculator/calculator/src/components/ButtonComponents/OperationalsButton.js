@@ -7,7 +7,7 @@ const OperationalsButton = () => {
   return (
     <div className="operational-button">
       {mathOperationals.map(symbol => {
-        return <div>{symbol}</div>;
+        return <button className="square-button" key={symbol}>{symbol}</button>;
       })}
     </div>
   );
