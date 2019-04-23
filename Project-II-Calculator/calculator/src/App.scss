@@ -1,0 +1,12 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Lato");
+$lato: "Lato", sans-serif;
+
+//Global
+body {
+  max-width: 500px;
+}
+
+// Import component stylesheets
+@import "components/ButtonComponents/Buttons.scss";
+@import "components/DisplayComponents/Display.scss";
