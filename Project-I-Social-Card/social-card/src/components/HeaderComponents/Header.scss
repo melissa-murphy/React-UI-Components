@@ -1,5 +1,9 @@
 /* All styles for your header Components live here */
+
 .header-content {
   display: flex;
   flex-direction: row;
+  .header-title {
+    font-family: $lato;
+  }
 }
