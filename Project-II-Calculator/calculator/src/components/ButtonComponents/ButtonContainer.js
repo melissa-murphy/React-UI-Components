@@ -1,16 +1,16 @@
 import React from "react";
-import ActionButton from "./ActionButton";
-import NumberButton from "./NumberButton";
-import MathButton from "./MathButton";
+import ActionButtonContainer from "./ActionButtonContainer";
+import NumberButtonContainer from "./NumberButtonContainer";
+import OperationalsContainer from "./OperationalsContainer";
 
 import "./Buttons.scss";
 
 const ButtonContainer = () => {
   return (
     <div>
-      <ActionButton />
-      <NumberButton />
-      <MathButton />
+      <ActionButtonContainer />
+      <NumberButtonContainer />
+      <OperationalsContainer />
     </div>
   );
 };
