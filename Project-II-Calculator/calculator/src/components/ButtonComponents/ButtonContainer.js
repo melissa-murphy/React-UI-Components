@@ -5,7 +5,7 @@ import "./Buttons.scss";
 const ButtonContainer = () => {
   return (
     <div>
-        <ClearButton />
+        <ActionButton />
         <NumberButtons />
         <MathButtons />
     </div>
