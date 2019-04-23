@@ -1,2 +1,12 @@
 import React from 'react';
-import './Button.css';
+import './Buttons.scss';
+
+const NumberButton = () => {
+    return (
+        <div>
+            <button>Number Button</button>
+        </div>
+    )
+};
+
+export default NumberButton;
