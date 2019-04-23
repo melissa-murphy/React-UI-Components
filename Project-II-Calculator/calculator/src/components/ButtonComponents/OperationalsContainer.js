@@ -1,5 +1,5 @@
 import React from "react";
-import MathButton from "./MathButton";
+import MathButton from "./OperationalsButton";
 
 import "./Buttons.scss";
 

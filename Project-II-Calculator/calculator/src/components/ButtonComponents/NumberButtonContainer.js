@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "./Button";
 import NumberButton from "./NumberButton";
+import OperationalsButton from "./OperationalsButton";
 
 import "./Buttons.scss";
 
@@ -8,6 +8,7 @@ const NumberButtonContainer = () => {
   return (
     <div className="number-button-container">
       <NumberButton />
+      <OperationalsButton />
     </div>
   );
 };
