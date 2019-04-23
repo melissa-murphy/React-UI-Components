@@ -1,14 +1,12 @@
 import React from "react";
-import DisplayContainer from "./components/DisplayComponents/DisplayContainer";
-import ButtonContainer from "./components/ButtonComponents/ButtonContainer";
+import CalculatorContainer from "./components/CalculatorContainer";
 
 import "./App.css";
 
 const App = () => {
   return (
     <div>
-      <DisplayContainer />
-      <ButtonContainer />
+      <CalculatorContainer />
     </div>
   );
 };
