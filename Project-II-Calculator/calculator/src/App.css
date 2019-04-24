@@ -1,30 +1,77 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 body {
-  max-width: 400px;
+  width: 20rem;
+  height: 27.5rem;
   margin-left: 1rem;
 }
 
 button.square-button {
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 4rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 button.action-button {
-  height: 3rem;
-  width: 6rem;
+  height: 4rem;
+  width: 15rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+}
+
+.button-container {
+  position: relative;
+  height: 320px;
+}
+.button-container .action-button-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.button-container .action-button-container .action-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.button-container .operational-button-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.button-container .operational-button-container .operational-button-wrapper {
+  background-color: #A0001E;
+  display: flex;
+  flex-direction: column;
+}
+.button-container .operational-button-container .operational-button-wrapper .square-button {
+  background-color: transparent;
+  color: white;
+  margin: 0;
+  border: 1px solid grey;
+}
+.button-container .number-button-container {
+  padding-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 15rem;
 }
 
 .calculator-display {
   max-width: 400px;
-  height: 3.5rem;
+  height: 6.5rem;
   color: white;
   background: black;
   text-align: right;
 }
-
-.operational-button-container {
-  display: flex;
-  flex-direction: column;
+.calculator-display p {
+  margin-right: 1rem;
+  padding-top: 1rem;
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=App.css.map */

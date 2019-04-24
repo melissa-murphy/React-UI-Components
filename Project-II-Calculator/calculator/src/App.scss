@@ -4,11 +4,12 @@ $lato: "Lato", sans-serif;
 
 //Global
 body {
-  max-width: 400px;
+  width: 20rem;
+  height: 27.5rem;
   margin-left: 1rem;
 }
 
 // Import component stylesheets
 @import "./components/ButtonComponents/Buttons.scss";
-@import "./components/DisplayComponents/Display.scss";
 @import "./components/ButtonComponents/ButtonContainer.scss";
+@import "./components/DisplayComponents/Display.scss";

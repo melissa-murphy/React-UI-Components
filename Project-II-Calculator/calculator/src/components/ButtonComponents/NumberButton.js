@@ -7,7 +7,11 @@ const NumberButton = () => {
   return (
     <div className="number-button">
       {calcNumbers.map(number => {
-        return <button className="square-button" key={number}>{number}</button>;
+        return (
+          <button className="square-button" key={number}>
+            {number}
+          </button>
+        );
       })}
     </div>
   );
