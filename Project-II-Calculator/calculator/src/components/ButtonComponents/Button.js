@@ -1,10 +1,14 @@
-import React from "react";
-import "./Buttons.scss";
+import React from 'react';
+import './Buttons.scss';
+
+function buttonClick() {
+  console.log(this.props.data);
+}
 
 const Button = props => {
   return (
     <div>
-      <button>{props.data}</button>
+      <button onClick={buttonClick()}>{props.data}</button>
     </div>
   );
 };
