@@ -1,0 +1,17 @@
+// Button styles
+button.square-button {
+  width: 5rem;
+  height: 4rem;
+  font-family: $lato;
+  font-size: 2rem;
+  font-weight: 700;
+}
+button.action-button {
+  height: 4rem;
+  width: 15rem;
+  font-family: $lato;
+  font-size: 2rem;
+  &:last-child {
+    font-weight: 700;
+  }
+}

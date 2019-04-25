@@ -1,0 +1,13 @@
+.calculator-display {
+  max-width: 400px;
+  height: 6.5rem;
+  color: white;
+  background: black;
+  text-align: right;
+  p {
+    margin-right: 1rem;
+    padding-top: 1rem;
+    font-size: 4rem;
+    font-family: $lato;
+  }
+}
